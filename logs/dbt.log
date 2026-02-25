@@ -1,0 +1,32 @@
+[0m12:57:39.153111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78f80c6ce150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78f80c377c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78f80e02d220>]}
+
+
+============================== 12:57:39.162899 | 1837a5e1-f733-4fc5-ae85-61bd7f912593 ==============================
+[0m12:57:39.162899 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:57:39.163694 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/codespace/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:57:39.174380 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/home/codespace/.dbt')}
+[0m12:57:39.175013 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:57:45.486456 [debug] [MainThread]: Starter project path: /workspaces/BTC/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m12:57:45.495129 [info ] [MainThread]: 
+Your new dbt project "BTC" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:57:45.496223 [info ] [MainThread]: Setting up your profile.
+[0m13:01:42.953063 [info ] [MainThread]: Profile BTC written to /home/codespace/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:01:42.956892 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 243.87927, "process_in_blocks": "600", "process_kernel_time": 0.238929, "process_mem_max_rss": "120432", "process_out_blocks": "80", "process_user_time": 1.729714}
+[0m13:01:42.958154 [debug] [MainThread]: Command `dbt init` succeeded at 13:01:42.957997 after 243.88 seconds
+[0m13:01:42.958982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78f80be7d280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78f80ab8c080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78f80adf8e00>]}
+[0m13:01:42.959589 [debug] [MainThread]: Flushing usage events
+[0m13:01:43.887848 [debug] [MainThread]: An error was encountered while trying to flush usage events
