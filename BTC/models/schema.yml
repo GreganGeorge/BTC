@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_btc
+    columns:
+      - name: HASH_KEY
+        tests:
+          - unique
+          - not_null
+  - name: whale_alert
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: output_address
+        data_type: string
+      - name: total_sent
+        data_type: float
+      - name: tx_count
+        data_type: int
+      - name: total_send
+        data_type: float
+      
