@@ -11,3 +11,8 @@ sources:
             count: 1
             period: hour
         loaded_at_field: BLOCK_TIMESTAMP
+  - name: customers
+    database: customers
+    schema: customers
+    tables:
+      - name: customer_status
